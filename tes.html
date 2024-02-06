@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Sound</title>
+    <!-- Include Howler.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+</head>
+
+<body>
+    <embed src="sound.mp3" loop="true" autostart="true" width="2" height="0">
+
+    <script>
+        // Initialize Howler with the background sound
+        var sound = new Howl({
+            src: ['sound.mp3'], // Replace with the path to your audio file
+            loop: true, // Enable looping
+            autoplay: true // Enable autoplay
+        });
+    </script>
+
+</body>
+
+</html>
