@@ -15,7 +15,7 @@ const second = 1000,
   minute = second * 60,
   hour = minute * 60,
   day = hour * 24;
-let countDown = new Date('Nov 17, 2025 00:00:00').getTime(),
+let countDown = new Date('Nov 17, 2024 00:00:00').getTime(),
   x = setInterval(function () {
     let now = new Date().getTime(),
       distance = countDown - now;
@@ -71,7 +71,7 @@ const _slideDua = function () {
         _slideTiga();
       }, 1000);
     })
-  }, 40000);
+  }, 30000);
 };
 
 const _slideTiga = function () {
@@ -79,8 +79,8 @@ const _slideTiga = function () {
   const slideTiga = document.getElementById('slideTiga');
 
   slideTiga.classList.remove('d-none');
+    tap.classList.add('d-none');
   // setTimeout(function () {
-  //   tap.classList.remove('d-none');
   //   document.body.addEventListener('click', function () {
   //     slideTiga.classList.remove('animate__delay-2s', 'animate__slow');
   //     slideTiga.classList.replace('animate__fadeInRight', 'animate__fadeOut');
@@ -154,7 +154,7 @@ const _slideEnam = function () {
 
 
 new TypeIt("#teks1", {
-  strings: ["Hari ini, ku langitkan semua doa terbaik untuk mu.", "Semoga hal-hal yang membuat kamu runtuh turut menjadi alasan kamu untuk tetap tumbuh.", "Semoga allah senantiasa menjaga kamu dimanapun kamu berada.",  "Semoga setiap langkahmu dimudahkan hingga tercapai apa yang kamu inginkan."],
+  strings: [" ", "Semoga hal-hal yang membuat kamu runtuh turut menjadi alasan kamu untuk tetap tumbuh.", " ", "Semoga allah senantiasa menjaga kamu dimanapun kamu berada.", " ",  "Semoga setiap langkahmu dimudahkan hingga tercapai apa yang kamu inginkan."],
   startDelay: 4000,
   speed: 75,
   waitUntilVisible: true
