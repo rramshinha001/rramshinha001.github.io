@@ -161,7 +161,7 @@ new TypeIt("#teks1", {
 }).go();
 
 new TypeIt("#teks2", {
-  strings: ["Semoga selalu ada saja yang membahagiakan kamu bagaimanapun caranya.", " ", "barakallah fi umrik, terima kasih sudah bertahan sampai sejauh ini.", " ", "- Wish all you the best"],
+  strings: ["Semoga selalu ada saja yang membahagiakan kamu bagaimanapun caranya.", " ", "barakallah fi umrik, terima kasih sudah bertahan sampai sejauh ini.", " ", "- Wish you all the best"],
   startDelay: 2000,
   speed: 75,
   waitUntilVisible: true
